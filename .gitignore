@@ -39,6 +39,10 @@ installer/
 # Generated executables and installers
 *.exe
 
+# Installer build scripts (keep source, ignore generated files)
+build_installer.bat
+create_installer.bat
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt

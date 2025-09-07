@@ -7,6 +7,52 @@ A comprehensive Python audio processing suite featuring two powerful tools:
 
 Both applications feature a professional GUI with steampunk-inspired design elements.
 
+## 🚀 Quick Install & Run
+
+### Windows (Easiest)
+```bash
+# 1. Download and extract the project
+# 2. Double-click setup_venv.bat (creates environment and installs dependencies)
+# 3. Double-click venv_on.bat (activates environment)
+# 4. Run either application:
+python src/main.py                    # Audio processor
+python run_tone_generator.py          # Tone generator
+```
+
+### Linux/macOS
+```bash
+# 1. Clone or download the project
+# 2. Make setup script executable and run:
+chmod +x setup_venv.sh && ./setup_venv.sh
+# 3. Activate environment:
+source venv/bin/activate
+# 4. Run either application:
+python src/main.py                    # Audio processor
+python run_tone_generator.py          # Tone generator
+```
+
+### Manual Setup
+```bash
+# Create virtual environment
+python -m venv venv
+# Activate (Windows: venv\Scripts\activate.bat)
+source venv/bin/activate  # Linux/macOS
+# Install dependencies
+pip install -r requirements.txt
+# Run applications
+python src/main.py                    # Audio processor
+python run_tone_generator.py          # Tone generator
+```
+
+## 📦 What You Get
+
+- **🎵 Notched Music**: Professional audio processor with MP3 output
+- **🎛️ Tinnitus Frequency Identifier**: Vintage 1970s-style tone generator  
+- **🎨 Steampunk Design**: Mechanical heart icon and retro aesthetics
+- **📁 Demo Files**: Sample audio files for testing
+- **📚 Documentation**: Comprehensive guides and examples
+- **🔧 Setup Scripts**: One-click installation for Windows/Linux/macOS
+
 ## Features
 
 ### Notched Music (Audio Processor)
